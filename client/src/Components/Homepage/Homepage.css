@@ -1,0 +1,10 @@
+body {
+background-color: rgb(248, 223, 255);}
+
+.homepagename{
+  display: flex;
+  font-size: 70px;
+  font-family: Sacramento, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
