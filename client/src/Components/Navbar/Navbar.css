@@ -1,20 +1,23 @@
 .navbarContainer {
-  display: flex;
-  justify-content: flex-end;
-  position: sticky;
-  flex-direction: row;
-  justify-content: space-between;
-  top: 0;
- 
-  border-bottom: 1px solid white;
-  width: 90vw;
-  height: 50px;
-  padding: 5px;
-}
-nav {
   width: 30%;
   display: flex;
   justify-content: space-between;
+}
+nav {
+
+  display: flex;
+  justify-content: flex-start;
+  position: sticky;
+  flex-direction: row;
+  
+  align-items: flex-end;
+    justify-content: flex-end;
+  top: 0;
+ 
+  border-bottom: 1px solid white;
+
+  height: 50px;
+  padding: 5px;
 }
 a {
   text-decoration: none;
