@@ -15,37 +15,37 @@ const About = () => {
           <div className="topSkills">
         <div className="icons">
         <img
-            alt="ruby image"
+            alt="ruby"
             id="ruby-image"
             src={require("./ruby.png").default}
           ></img>
           <p>Rails</p>
       <img
-            alt="rails image"
+            alt="rails"
             id="rails-image"
             src={require("./rails.png").default}
           ></img>
           <p>Rails</p>
           <img
-            alt="css image"
+            alt="css"
             id="css-image"
             src={require("./css.png").default}
           ></img>
           <p>CSS</p>
           <img
-            alt="html image"
+            alt="html"
             id="html-image"
             src={require("./html.png").default}
           ></img>
           <p>HTML</p>
           <img
-            alt="js image"
+            alt="js"
             id="js-image"
             src={require("./js.png").default}
           ></img>
           <p>Javascript</p>
           <img
-            alt="react image"
+            alt="react"
             id="react-image"
             src={require("./react.png").default}
           ></img>
