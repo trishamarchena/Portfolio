@@ -5,11 +5,13 @@ import "./Homepage.css"
 
 const Homepage = (props) => {
   return (
-    <div className="homepageContainer">
+    <div id="homepageContainer">
+    <div className="homePage">
       <h1 className="homepagename">Patricia Marchena.</h1> 
       <h2 className="homepagemessage">
      Full stack developer.
       </h2>
+      </div>
       <About / >
         <Projects / >
           <Contact />
