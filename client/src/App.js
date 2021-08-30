@@ -14,15 +14,7 @@ function App() {
       <Route exact path="/Homepage">
         <Homepage />
       </Route>
-      <Route exact path="/About">
-        <About />
-      </Route>
-      <Route exact path="/Contact">
-        <Contact />
-      </Route>
-      <Route exact path="/Projects">
-        <Projects />
-      </Route>
+      
     </div>
   );
 }

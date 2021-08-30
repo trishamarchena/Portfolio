@@ -1,0 +1,47 @@
+#contactMeContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 130px;
+  height: 100vh;
+}
+.contactTitle{
+  font-family: Oxygen,sans-serif;
+}
+#inputname{
+  display: flex;
+  font-family: Oxygen,sans-serif;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-top: 20px;
+
+}
+#inputemail{
+  display: flex;
+  font-family: Oxygen,sans-serif;
+  justify-content: center;
+  align-items: center;
+width: 200px;
+margin-top: 20px;
+}
+
+#inputmessage{
+  display: flex;
+  font-family: Oxygen,sans-serif;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.contactButton{
+  margin-top: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+border-radius: 6px;
+border: 1px solid;
+width: 100px;
+}

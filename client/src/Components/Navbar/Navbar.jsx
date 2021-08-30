@@ -4,12 +4,14 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
+    <nav>
     <div className ="navbarContainer">
       <Link to="/Homepage">Home</Link>
-      <Link to="/About" className="aboutlink">About</Link>
-      <Link to ="/Projects" className="Projects">Projects</Link>
-      <Link to="/Contact" className="contactlink">Contact me</Link>
+      <a href ="#aboutContainer" className="aboutLink">About</a>
+      <a href ="#projectContainer" className="projects">Projects</a>
+      <a href="#contactMeContainer" className="contactLink">Contact</a>
     </div>
+    </nav>
   );
 };
 

@@ -1,0 +1,70 @@
+#aboutContainer{
+  display: flex;
+  font-family: Oxygen,sans-serif;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100vh;
+  margin-bottom: 0px;
+}
+.imagesContainer{
+ /* display: flex;
+ justify-content: flex-start;
+
+ object-fit: contain;
+ margin: 10px;
+ flex-direction: column; */
+
+
+  padding-bottom: 30px;
+  /* border-bottom: 1px solid var(--highlight); */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin: 10px;
+
+}
+
+#rails-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#css-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#js-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#html-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#react-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#ruby-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#node-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}

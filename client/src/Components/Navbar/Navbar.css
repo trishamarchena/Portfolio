@@ -1,0 +1,25 @@
+.navbarContainer {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  flex-direction: row;
+  justify-content: space-between;
+  top: 0;
+ 
+  border-bottom: 1px solid white;
+  width: 90vw;
+  height: 50px;
+  padding: 5px;
+}
+nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgb(134, 233, 255);
+}
