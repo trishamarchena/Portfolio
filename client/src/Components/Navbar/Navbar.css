@@ -3,18 +3,24 @@
   display: flex;
   justify-content: space-between;
 }
+/* .myLogo{
+  display: flex;
+  justify-content: flex-start;
+
+} */
 nav {
   display: flex;
   justify-content: flex-start;
   position: sticky;
   flex-direction: row;
-  background-color: rgb(145, 143, 145);
   align-items: flex-end;
   justify-content: flex-end;
   top: 0;
   border-bottom: 1px solid white;
   height: 50px;
   padding: 5px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.584);
 }
 a {
   text-decoration: none;
