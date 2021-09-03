@@ -32,24 +32,25 @@ const Contact = () => {
 
   return (
     <div id="contactMeContainer">
-      <h2 className="contactTitle">Contact</h2>
+      <h2 className="contactTitle">Send me a message</h2>
       <form onSubmit={onSubmit}>
         <input
           id="inputname"
           type="text"
           name="from_name"
-          placeholder="Your beautiful name"
+          placeholder="From 'your beautiful name'"
           value={toSend.from_name}
           required
           onChange={handleChange}
           />
-        <input
+        {/* <input
+        id ="inputPatricia"
           type="text"
           name="to_name"
-          placeholder="Patricia"
+          placeholder="To Patricia"
           value={toSend.to_name}
           onChange={handleChange}
-          />
+          /> */}
           <input
             id="inputemail"
             type="text"

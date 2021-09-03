@@ -1,36 +1,42 @@
-#aboutContainer{
-  display: flex;
-  font-family: Oxygen,sans-serif;
-  justify-content: center;
-  align-items: center;
-  color: white;
+.aboutSection{
   height: 100vh;
+  color: white;
+  font-family: Oxygen,sans-serif;
   margin-bottom: 0px;
+  border-bottom: 1px solid rgb(247, 215, 240);
 }
-.imagesContainer{
- /* display: flex;
- justify-content: flex-start;
 
- object-fit: contain;
- margin: 10px;
- flex-direction: column; */
-
-
-  padding-bottom: 30px;
-  /* border-bottom: 1px solid var(--highlight); */
-  position: relative;
+.aboutTitle{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 50px;
 }
-.icons{
+.aboutParagraph{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: flex-end;
-  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 700px;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin:auto;
+}
 
+.topSkills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bottomSkills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.iconDetail{
+  margin: 18px;
 }
 
 #rails-image{
