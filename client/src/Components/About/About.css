@@ -78,3 +78,29 @@
   height: 70px;
   object-fit: contain;
 }
+#mongo-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+#SQL-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#postgreSQL-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#postman-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#github-image{
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}

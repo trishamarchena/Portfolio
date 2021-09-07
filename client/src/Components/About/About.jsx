@@ -71,9 +71,49 @@ const About = () => {
             ></img>
           <p className= "skillsTitle">Node.js</p>
           </div>
+          <div className="iconDetail">
+          <img
+            alt="mongo"
+            id="mongo-image"
+            src={require("./mongodb.png").default}
+            ></img>
+          <p className= "skillsTitle">Mongo DB</p>
+          </div>
+          <div className="iconDetail">
+          <img
+            alt="sql"
+            id="SQL-image"
+            src={require("./sql.png").default}
+            ></img>
+          <p className= "skillsTitle">SQL</p>
+          </div>
+          <div className="iconDetail">
+          <img
+            alt="postgreSQL"
+            id="postgreSQL-image"
+            src={require("./postgreSQL.png").default}
+            ></img>
+          <p className= "skillsTitle">PostgreSQL</p>
+          </div>
+          <div className="iconDetail">
+          <img
+            alt="postman"
+            id="postman-image"
+            src={require("./postman.png").default}
+            ></img>
+          <p className= "skillsTitle">Postman</p>
+          </div>
+          <div className="iconDetail">
+          <img
+            alt="github"
+            id="github-image"
+            src={require("./github.png").default}
+            ></img>
+          <p className= "skillsTitle">Github</p>
+          </div>
+          </div>
+          </div>
             </div>
-      </div>
-      </div>
   );
 };
 
