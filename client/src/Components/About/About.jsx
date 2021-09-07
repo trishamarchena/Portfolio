@@ -19,7 +19,7 @@ const About = () => {
             id="ruby-image"
             src={require("./ruby.png").default}
             />
-            <p>Ruby</p>
+            <p className= "skillsTitle"> Ruby</p>
             </div>
             <div className="iconDetail">
       <img
@@ -27,7 +27,7 @@ const About = () => {
             id="rails-image"
             src={require("./rails.png").default}
             />
-            <p>Rails</p>
+            <p className= "skillsTitle">Rails</p>
             </div>
             <div className="iconDetail">
           <img
@@ -35,7 +35,7 @@ const About = () => {
             id="css-image"
             src={require("./css.png").default}
             />
-            <p>CSS</p>
+            <p className= "skillsTitle">CSS</p>
             </div>
             <div className="iconDetail">
           <img
@@ -43,7 +43,7 @@ const About = () => {
             id="html-image"
             src={require("./html.png").default}
             />
-            <p>HTML</p>
+            <p className= "skillsTitle">HTML</p>
             </div>
             <div className="iconDetail">
           <img
@@ -51,7 +51,7 @@ const About = () => {
             id="js-image"
             src={require("./js.png").default}
             />
-            <p>Javascript</p>
+            <p className= "skillsTitle">Javascript</p>
             </div>
             <div className="iconDetail">
           <img
@@ -59,7 +59,7 @@ const About = () => {
             id="react-image"
             src={require("./react.png").default}
             />
-          <p>React</p>
+          <p className= "skillsTitle">React</p>
           </div>
             </div>
       <div className="bottomSkills">
@@ -69,7 +69,7 @@ const About = () => {
             id="node-image"
             src={require("./nodejs.png").default}
             ></img>
-          <p>Node.js</p>
+          <p className= "skillsTitle">Node.js</p>
           </div>
             </div>
       </div>

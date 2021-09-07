@@ -17,15 +17,16 @@ nav {
   justify-content: flex-end;
   top: 0;
   border-bottom: 1px solid white;
+  /* box-shadow: 0 0 20px rgb(249, 154, 241); */
   height: 50px;
   padding: 5px;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.584);
+  background-color: rgba(0, 0, 0, 0.18);
 }
 a {
   text-decoration: none;
   color: white;
 }
 a:hover {
-  color: rgb(134, 233, 255);
+  color: rgb(30, 214, 255);
 }
