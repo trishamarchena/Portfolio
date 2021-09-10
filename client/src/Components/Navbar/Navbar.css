@@ -2,6 +2,11 @@
   width: 30%;
   display: flex;
   justify-content: space-between;
+  /* z-index: 1000001;
+  position: absolute;
+  transform: rotateZ(-90deg) translateX(-50%);
+  transform-origin: 0 50%;
+  top: 50%; */
 }
 /* .myLogo{
   display: flex;
@@ -26,7 +31,9 @@ nav {
 a {
   text-decoration: none;
   color: white;
+  font-family: Oxygen,sans-serif;
 }
 a:hover {
   color: rgb(30, 214, 255);
 }
+

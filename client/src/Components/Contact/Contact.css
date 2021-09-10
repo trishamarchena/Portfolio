@@ -1,4 +1,4 @@
-#contactMeContainer{
+#contactMeContainer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,49 +6,45 @@
   margin: 130px;
   height: 100vh;
 }
-.contactTitle{
-  font-family: Oxygen,sans-serif;
+.contactTitle {
+  font-family: Oxygen, sans-serif;
   color: white;
   font-size: 50px;
 }
-#inputname{
+#inputname {
   display: flex;
-  font-family: Oxygen,sans-serif;
+  font-family: Oxygen, sans-serif;
   justify-content: center;
   align-items: center;
   width: 200px;
   height: 25px;
   margin-top: 20px;
-
 }
-#inputPatricia{
+#inputPatricia {
   display: flex;
-  font-family: Oxygen,sans-serif;
+  font-family: Oxygen, sans-serif;
   justify-content: center;
   align-items: center;
   width: 200px;
-  
   margin-top: 20px;
   background-color: transparent;
-  color:white;
+  color: white;
   border: transparent;
 }
-#inputPatricia::placeholder{
-  color: white;
-}
-#inputemail{
+
+#inputemail {
   display: flex;
-  font-family: Oxygen,sans-serif;
+  font-family: Oxygen, sans-serif;
   justify-content: center;
   align-items: center;
-width: 200px;
-height: 25px;
-margin-top: 20px;
+  width: 200px;
+  height: 25px;
+  margin-top: 20px;
 }
 
-#inputmessage{
+#inputmessage {
   display: flex;
-  font-family: Oxygen,sans-serif;
+  font-family: Oxygen, sans-serif;
   justify-content: center;
   align-items: center;
   width: 230px;
@@ -56,11 +52,11 @@ margin-top: 20px;
   margin-top: 20px;
 }
 
-.contactButton{
+.contactButton {
   margin-top: 20px;
   color: white;
   background-color: rgba(0, 0, 0, 0);
-border-radius: 6px;
-border: 1px solid;
-width: 100px;
+  border-radius: 6px;
+  border: 1px solid;
+  width: 100px;
 }
