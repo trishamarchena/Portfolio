@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className ="navbarContainer">
       {/* < h2 className="myLogo">Patricia Marchena</h2> */}
       <div className="myLogo">
-      <a href ="/#homepageContainer">Patricia Marchena</a></div>
+      <a href ="/">Patricia Marchena</a></div>
       <a href ="#aboutContainer" className="aboutLink">About</a>
       <a href ="#projectContainer" className="projects">Projects</a>
       <a href="#contactMeContainer" className="contactLink">Contact</a>
