@@ -20,6 +20,7 @@
   width: 350px;
   height: 250px;
   object-fit: contain;
+ 
 }
 
 #mendingMindsProject{
@@ -27,8 +28,16 @@
   height: 250px;
   object-fit: contain;
 }
-.projectDescription{
+#spfProject{
+  width: 350px;
+  height: 250px;
+  object-fit: contain;
+}
+
+.projectTitle{
   text-align: center;
+  color: white;
+  margin-top: 0;
 }
 .projectInfo{
   display: flex;
