@@ -1,4 +1,4 @@
-#projectContainer{
+#projectsContainer{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,6 @@
   margin-top: 150px;
     border-bottom: 1px solid rgb(247, 215, 240);
 }
-
 .projectHeader{
   font-family: Oxygen, sans-serif;
   margin-bottom: 0px;
@@ -16,11 +15,14 @@
   font-family: Oxygen,sans-serif;
   font-size: 50px;
 }
+.projectImages{
+  display: flex;
+  align-content: flex-start;
+}
 #feedMeProject{
   width: 350px;
   height: 250px;
   object-fit: contain;
- 
 }
 
 #mendingMindsProject{

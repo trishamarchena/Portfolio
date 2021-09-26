@@ -14,26 +14,27 @@ const Contact = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     send(
-      'service_wc646qj',
-      'template_u5xga8e',
+      "service_wc646qj",
+      "template_u5xga8e",
       toSend,
-      'user_9GPXvwXdItUpwaCBE1LQD'
+      "user_9GPXvwXdItUpwaCBE1LQD"
     )
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
+        console.log("SUCCESS!", response.status, response.text);
       })
       .catch((err) => {
-        console.log('FAILED...', err);
+        console.log("FAILED...", err);
       });
-  }
+  };
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
   return (
     <div id="contactMeContainer">
-      <h2 className="contactTitle">Send me a message</h2>
-      <form onSubmit={onSubmit}>
+      <h2 className="contactTitle">Connect with me :) </h2>
+      <form className="contactForm"
+      onSubmit={onSubmit}>
         <input
           id="inputname"
           type="text"
@@ -42,24 +43,17 @@ const Contact = () => {
           value={toSend.from_name}
           required
           onChange={handleChange}
-          />
-        {/* <input
-        id ="inputPatricia"
+        />
+
+        <input
+          id="inputemail"
           type="text"
-          name="to_name"
-          placeholder="To Patricia"
-          value={toSend.to_name}
+          name="reply_to"
+          placeholder="Your email"
+          value={toSend.reply_to}
+          required
           onChange={handleChange}
-          /> */}
-          <input
-            id="inputemail"
-            type="text"
-            name="reply_to"
-            placeholder="Your email"
-            value={toSend.reply_to}
-            required
-            onChange={handleChange}
-            />
+        />
         <textarea
           id="inputmessage"
           type="text"
@@ -69,7 +63,9 @@ const Contact = () => {
           required
           onChange={handleChange}
         />
-        <button type="Submit" className="contactButton">Submit</button>
+        <button type="Submit" className="contactButton">
+          Submit
+        </button>
       </form>
     </div>
   );

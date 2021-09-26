@@ -3,7 +3,7 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <div id="projectContainer">
+    <div id="projectsContainer">
       <div className="projectInfo">
         <h2 className="projectHeader">My Projects</h2>
         <div className="projectDetails">
@@ -17,7 +17,7 @@ const Projects = () => {
             <a
               target="_blank "
               href="https://github.com/trishamarchena/Feed-me-app/tree/main"
-            >
+              >
               <p className="githubLink"> Take me to the code! </p>
             </a>
           </div>
@@ -25,8 +25,9 @@ const Projects = () => {
             <a target="_blank " href="https://feed-me-app.netlify.app/">
               <p className="webLink"> Take me to the website! </p>
             </a>
+              </div>
           </div>
-
+          <div className="projectDetails">
           <img
             alt="mending minds app"
             id="mendingMindsProject"
@@ -37,7 +38,7 @@ const Projects = () => {
             <a
               target="_blank "
               href="https://github.com/trishamarchena/mending-minds"
-            >
+              >
               <p className="githubLink"> Take me to the code!</p>
             </a>
           </div>
@@ -45,10 +46,13 @@ const Projects = () => {
             <a a target="_blank " href=" https://mending-minds.netlify.app/">
               <p className="webLink"> Take me to the website!</p>
             </a>
+              </div>
           </div>
+          <div className="projectDetails">
           <img
             alt="spf app"
             id="spfProject"
+            className="projectImages"
             src={require("./spf.png").default}
           ></img>
           <p className="projectTitle">SPF App </p>
@@ -62,9 +66,9 @@ const Projects = () => {
               <p className="webLink"> Take me to the website!</p>
             </a>
           </div>
+          </div>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -6,6 +6,12 @@
   margin: 130px;
   height: 100vh;
 }
+.contactForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .contactTitle {
   font-family: Oxygen, sans-serif;
   color: white;
@@ -19,17 +25,6 @@
   width: 200px;
   height: 25px;
   margin-top: 20px;
-}
-#inputPatricia {
-  display: flex;
-  font-family: Oxygen, sans-serif;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  margin-top: 20px;
-  background-color: transparent;
-  color: white;
-  border: transparent;
 }
 
 #inputemail {

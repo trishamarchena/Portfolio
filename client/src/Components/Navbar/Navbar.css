@@ -2,38 +2,32 @@
   width: 30%;
   display: flex;
   justify-content: space-between;
-  /* z-index: 1000001;
-  position: absolute;
-  transform: rotateZ(-90deg) translateX(-50%);
   transform-origin: 0 50%;
-  top: 50%; */
+  top: 80%;
+  position: fixed;
+  transform: rotateZ(-90deg);
 }
 /* .myLogo{
   display: flex;
   justify-content: flex-start;
-
+  
 } */
 nav {
-  display: flex;
-  justify-content: flex-start;
+  /* display: flex;
+  justify-content: space-between; */
   position: sticky;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
-  top: 0;
-  border-bottom: 1px solid white;
-  /* box-shadow: 0 0 20px rgb(249, 154, 241); */
-  height: 50px;
-  padding: 5px;
+  padding: 5px 0 0 35px;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.18);
+  /* width: 100vw;
+  height: 100vh; */
 }
+
 a {
   text-decoration: none;
   color: white;
-  font-family: Oxygen,sans-serif;
+  font-family: Oxygen, sans-serif;
 }
 a:hover {
   color: rgb(30, 214, 255);
 }
-

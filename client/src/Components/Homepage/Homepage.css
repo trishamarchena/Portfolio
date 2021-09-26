@@ -1,24 +1,21 @@
 .homePage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 height: 100vh;
 
 }
 
 .homepagename{
-  display: flex;
   font-size: 70px;
   z-index: 2;
   font-family: Sacramento, sans-serif;
-  justify-content: center;
-  align-items: center;
-  margin-top: 200px;
   margin-bottom: 0px;
   color: white;
 }
 .homepagemessage{
-  display: flex;
   font-family: Oxygen,sans-serif;
-  justify-content: center;
-  align-items: center;
   margin-top: 0px;
   color: white;
 }
