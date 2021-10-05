@@ -4,6 +4,7 @@ import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
+  const [isSent, setIsSent]= useState(true);
   const [toSend, setToSend] = useState({
     from_name: "",
     to_name: "",
@@ -25,6 +26,13 @@ const Contact = () => {
       .catch((err) => {
         console.log("FAILED...", err);
       });
+      setToSend ({
+        from_name: "",
+        to_name: "",
+        message: "",
+        reply_to: "",
+      })
+      setIsSent(!isSent);
   };
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
@@ -64,7 +72,7 @@ const Contact = () => {
           onChange={handleChange}
         />
         <button type="Submit" className="contactButton">
-          Submit
+          {isSent === false ? "Message Received!" : "Submit"}
         </button>
       </form>
     </div>
