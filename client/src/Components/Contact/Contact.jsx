@@ -47,7 +47,7 @@ const Contact = () => {
           id="inputname"
           type="text"
           name="from_name"
-          placeholder="From 'your beautiful name'"
+          placeholder="From 'Your beautiful name'"
           value={toSend.from_name}
           required
           onChange={handleChange}

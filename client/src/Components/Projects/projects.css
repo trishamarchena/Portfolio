@@ -1,31 +1,51 @@
 #projectsContainer{
+  color: white;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  max-width: 100vw;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   margin-top: 150px;
+  margin: 130px;
 }
-.projectDetails{
-  width: 90vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 40px;
+.descriptionOfProjects{
+  max-width: 400px;
 }
 .projectHeader{
   font-family: Oxygen, sans-serif;
   margin-bottom: 0px;
   padding: 0;
-  color: white;
-  font-family: Oxygen,sans-serif;
   font-size: 50px;
 }
-.projectImages{
-  display: flex;
-  align-content: flex-start;
+.projectTitle{
+  text-align: center;
+  margin-top: 0;
 }
+.projectDetails{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Oxygen,sans-serif;
+}
+.projectInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  margin: 55px;
+}
+
+.linksCont{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 335px;
+}
+
 #feedMeProject{
   width: 350px;
   height: 250px;
@@ -41,18 +61,4 @@
   width: 350px;
   height: 250px;
   object-fit: contain;
-}
-
-.projectTitle{
-  text-align: center;
-  color: white;
-  margin-top: 0;
-}
-.projectInfo{
-  display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    margin-left: 10px;
 }

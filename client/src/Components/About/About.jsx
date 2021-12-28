@@ -8,7 +8,7 @@ const About = () => {
     <div id= "aboutContainer">
       <h2 className="aboutTitle">About me </h2>
       <h4 className="aboutParagraph">
-      I'm a full stack developer with a penchant for creating applications. I've created and went on to complete multiple projects using Reacj t, Javascript, Ruby, Ruby on Rails, mongoDB and NodeJS. My 8 years of customer service experience makes me well versed in handling client needs as well as performing efficiently in a collaborative work environment. 
+      I'm a full stack developer with a penchant for creating applications. I've created and went on to complete multiple projects using React, Javascript, Ruby, Ruby on Rails, mongoDB and NodeJS. My 8 years of customer service experience makes me well versed in handling client needs as well as performing efficiently in a collaborative work environment. 
       </h4>
     </div>
       <div className="iconsContainer">
