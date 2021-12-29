@@ -7,20 +7,12 @@
   position: fixed;
   transform: rotateZ(-90deg);
 }
-/* .myLogo{
-  display: flex;
-  justify-content: flex-start;
-  
-} */
+
 nav {
-  /* display: flex;
-  justify-content: space-between; */
   position: sticky;
   padding: 5px 0 0 35px;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.18);
-  /* width: 100vw;
-  height: 100vh; */
 }
 
 a {
@@ -30,4 +22,28 @@ a {
 }
 a:hover {
   color: rgb(30, 214, 255);
+}
+
+@media screen and (max-width: 771px) {
+  .navbarContainer {
+    top: 50%;
+    position: fixed;
+  }
+  
+  nav {
+    position: sticky;
+    padding: 5px 0 0 35px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.18);
+
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-family: Oxygen, sans-serif;
+  }
+  a:hover {
+    color: rgb(30, 214, 255);
+  }
 }

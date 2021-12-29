@@ -24,18 +24,19 @@ html {
 }
 
 @media screen and (max-width: 1270px) {
+  
   #homepageContainer{
     width: 375px;
   }
+
   .homePage{
   height: 100vh;
-  
   }
   
   .homepagename{
     font-size: 50px;
   }
-  
+
   .homepagemessage{
     margin-top: 0px;
   }
