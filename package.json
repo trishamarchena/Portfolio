@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "emailjs-com": "^3.2.0"
+    "dd-trace": "^1.5.0",
+    "emailjs-com": "^3.2.0",
+    "hot-shots": "^8.5.2"
   }
 }
